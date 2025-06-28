@@ -1,0 +1,28 @@
+# Core dependencies for SEC Filing Analyzer
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+beautifulsoup4>=4.12.0
+
+# Vector database and embeddings - ChromaDB 0.3.29 for SQLite 3.34.1 compatibility
+chromadb>=0.3.29,<0.4.0
+sentence-transformers>=2.2.0
+
+# AI/LLM integration
+openai>=1.0.0
+tiktoken>=0.5.0
+
+# Additional dependencies that may be needed
+tqdm>=4.65.0
+typing-extensions>=4.5.0
+
+# Optional: For better performance
+duckdb>=0.7.1
+hnswlib>=0.7.0
+
+# Additional dependencies from the code block
+pathlib
+logging
+datetime
+argparse
+typing 
